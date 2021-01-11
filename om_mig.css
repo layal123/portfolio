@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'gotham';
+    src: url(fonts/HomepageBaukasten-Book.ttf);
+    font-style: normal;
+}
+main {
+    background-color: #F8F3EC;
+}
+
+/*MENU MOBILE*/
+
+nav {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ebdcc9;
+    text-align: center;
+    z-index: 99;
+}
+#menuburger {
+    font-size: 12.5vw;
+    text-align: right;
+    color: #654321;
+    font-family: gotham;
+}
+#menu li {
+    display: block;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-right: 2vw;
+    padding: 2vw;
+    width: 80%;
+    margin-left: 8vw;
+}
+#menu a {
+    font-family: gotham;
+    font-size: 5vw;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.hidden {
+    display: none;
+}
+.nav_hide {
+    height: 8vh;
+}
+#logo {
+    position: absolute;
+    width: 19vw;
+    left: 2.5vw;
+    top: 3vw;
+}
+
+/*MENU MOBILE SLUT*/
+
+h1 {
+    display: hide;
+}
+main img {
+    height: 100%;
+    width: 100vw;
+    margin-top: 17vw;
+    padding: 0;
+}
+
+/*FOOTER MOBILE*/
+
+footer {
+    width: 100vw;
+    height: 26vw;
+    background-color: #ebdcc9;
+}
+footer h5 {
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2vw;
+    text-transform: uppercase;
+    color: gray;
+    margin-left: 5vw;
+    font-weight: 100;
+}
+hr {
+    color: gray;
+    width: 50vw;
+    margin-left: 5vw;
+    border-style: solid;
+}
+.ikoner {
+    display: flex;
+    margin-left: 5vw;
+}
+footer img {
+    padding: 3vw;
+    width: 8vw;
+}
+
+/*FOOTER MOBILE SLUT*/
+
+@media only screen and (min-width: 800px) {
+    /*MENU DESKTOP*/
+    nav {
+        padding: 2vw;
+    }
+    .hidden {
+        display: block;
+    }
+    #menu {
+        text-align: right;
+        margin-right: 5vw;
+    }
+    #menu li {
+        display: inline;
+        padding: 0.1vw;
+        margin: 0;
+        margin-right: 2vw;
+    }
+    #logo {
+        width: 7vw;
+        left: 5vw;
+        top: 1vw;
+    }
+    #menuburger {
+        display: none;
+    }
+    #menu a {
+        padding: 1.3vw;
+        font-size: 1vw;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    #menu a:hover {
+        color: white;
+    }
+    .hide {
+        display: none;
+    }
+    .nav_hide {
+        height: 3vh;
+    }
+    /*    MENU DESKTOP SLUT */
+    h1 {
+        font-family: gotham;
+        font-size: 1.7rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: #654321;
+        padding-top: 13vw;
+        padding-bottom: 4vw;
+    }
+    main img {
+        height: 100%;
+        width: 50vw;
+        margin-left: 25vw;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+        padding: 0;
+        box-shadow: 0vw 0vw 4vw lightgray;
+    }
+    /*FOOTER DESKTOP*/
+    footer {
+        height: 12vw;
+    }
+    footer h5 {
+        font-size: 1rem;
+        padding-top: 4vw;
+        padding-bottom: 1vw;
+        margin-left: 10vw;
+    }
+    .ikoner {
+        padding-left: 7vw;
+    }
+    footer img {
+        padding: 1vw;
+        width: 2.5vw;
+    }
+    hr {
+        width: 50vw;
+        margin-left: 10vw;
+    }
+}

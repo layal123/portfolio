@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE SITE</title>
+    <link rel="stylesheet" href="responsive_site.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0/favicon-16x16.png">
+    <link rel="manifest" href="favicon_package_v0/site.webmanifest">
+    <link rel="mask-icon" href="favicon_package_v0/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+</head>
+
+<body>
+    <header>
+        <nav id="nav" class="nav_hide">
+            <div id="menuburger">☰</div>
+            <a href="forside.html"> <img id="logo" src="galleri/logo.png" alt="logo"></a>
+            <ul id="menu" class="hidden">
+                <li><a href="forside.html">HJEM</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="om_mig.html">OM MIG</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="responsive_site">
+            <h1>responsive site</h1>
+            <h2> <a href="http://layalhussain.dk/kea/02_web/04_responsive/responsive_v2/">02.04.02 responsive site</a></h2>
+            <div class="section_wrapper">
+                <div class="row">
+                    <p>I denne opgave udarbejdede jeg mit eget responsive website. Jeg arbejde med moodboard gennem udviklingen af mit splashbillede samt favicon for visuelt at kunne beskrive, hvilken stil og tone disse elementer skulle have. I sammenspil med min uddelte stilart - “minimalism in modern webdesign” - havde jeg i mit moodboard fokus på en smal og jordlig farvepallette, med simpel og æstetisk grafik. </p>
+
+                    <div id="slider">
+                        <figure>
+                            <img src="galleri/moodboard.jpg" alt="moodboard">
+                            <img src="galleri/splashbillede.jpg" alt="splashbillede">
+                            <img src="galleri/favicon.jpg" alt="favikon">
+                            <img src="galleri/moodboard.jpg" alt="moodboard">
+                        </figure>
+                    </div>
+
+                </div>
+                <div class="row_middle">
+
+                    <div id="slider">
+                        <figure>
+                            <img src="galleri/nav.jpg" alt="nav">
+                            <img src="galleri/sjette-sektion.jpg" alt="sjette sektion">
+                            <img src="galleri/nav.jpg" alt="nav">
+                            <img src="galleri/sjette-sektion.jpg" alt="sjette sektion">
+                        </figure>
+                    </div>
+
+                    <p>Rent CSS mæssigt lærte jeg, at arbejde med bla. grid og flexbox, hvilket er de to layoutprincipper indenfor CSS. I min dekstop menu har jeg eksempelvis brugt display: flex, da flexbox stiller tingene op på én række ved siden af hinanden. I eksempelvis sjette sektion har jeg derimod brugt grid til mine billeder, så de kunne opdeles i både rækker og kolonner.</p>
+                </div>
+
+                <div class="row">
+                    <p>Endvidere lærte jeg gennem CSS at gøre hjemmesiden responsiv, ved at indsætte 3 forskellige mediaquery’s, som gør at sitets layout ændre sig, ud fra om man ser det på en computerskærm, tablet eller mobil.</p>
+
+                    <div id="slider">
+                        <figure>
+                            <img src="galleri/nav.jpg" alt="desktop">
+                            <img src="galleri/ipad.jpg" alt="ipad">
+                            <img src="galleri/mobile.jpg" alt="mobile">
+                            <img src="galleri/nav.jpg" alt="desktop">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h5>Layal Hussain © 2020</h5>
+            <hr>
+            <div class="ikoner">
+                <div class="instagram">
+                    <a href="https://www.instagram.com/luluhussaiiin/">
+                        <img src="ikoner/instagram.png" alt="instagram">
+                    </a>
+                </div>
+                <div class="facebook">
+                    <a href="https://www.facebook.com/layal.hussain.3">
+                        <img src="ikoner/facebook.png" alt="facebook">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="js/forside.js"></script>
+</body>
+
+</html>

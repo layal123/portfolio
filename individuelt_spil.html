@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDIVIDUELT SPIL</title>
+    <link rel="stylesheet" href="individuelt_spil.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0/favicon-16x16.png">
+    <link rel="manifest" href="favicon_package_v0/site.webmanifest">
+    <link rel="mask-icon" href="favicon_package_v0/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+</head>
+
+<body>
+    <header>
+        <nav id="nav" class="nav_hide">
+            <div id="menuburger">☰</div>
+            <a href="forside.html"> <img id="logo" src="galleri/logo.png" alt="logo"></a>
+            <ul id="menu" class="hidden">
+                <li><a href="forside.html">HJEM</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="om_mig.html">OM MIG</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="individuelt_spil">
+            <h1>Individuelt spil</h1>
+            <h2><a href="file:///Users/lulu/Desktop/kea/04_animation/04.05/%2004_05_01_animation_lulu.pdf">04.05.01 individuelt spil</a></h2>
+            <div class="section_wrapper">
+                <div class="row">
+                    <p>I denne opgave fik jeg færdiggjort mit animations spil ved navnet 'De Gyldne Æg'. Spillet går ud på at fange 10 gyldne æg ved at klikke på dem, før tiden løber ud. Dog kommer der også sovende høns op af rederne som ikke må vækkes. Klikker man på en sovende høne mister man et liv, angivet som spejlæg. Der er 3 spejlæg i alt, og når de alle er opbrugt har man tabt spillet.</p>
+
+                    <div id="slider">
+                        <figure>
+                            <img src="galleri/spil1.jpg" alt="spil">
+                            <img src="galleri/spil2.jpg" alt="spil2">
+                            <img src="galleri/spil3.jpg" alt="spil3">
+                            <img src="galleri/spil1.jpg" alt="spil">
+                        </figure>
+                    </div>
+
+                </div>
+                <div class="row_middle">
+
+                    <div id="slider">
+                        <figure>
+                            <img src="galleri/aktivitetsdiagram.jpg" alt="aktivitetsdiagram">
+                            <img src="galleri/statemachine.jpg" alt="state machine diagram">
+                            <img src="galleri/aktivitetsdiagram.jpg" alt="aktivitetsdiagram">
+                            <img src="galleri/statemachine.jpg" alt="state machine diagram">
+
+                        </figure>
+                    </div>
+
+                    <p>For at beskrive spil-systemet lavede jeg blandt andet et aktivitetsdiagram, som beskriver de enkelte handlinger og beslutninger i spillet. Senere udviklede jeg et state machine diagram, som minder meget om et aktivitetsdiagram men er mere detaljeret, da det samler flere aktiviteter i hver 'state'.</p>
+                </div>
+
+                <div class="row">
+                    <p>Til at kode spillet var det vigtigt at give alle elementer og skærme - udover - 'screen-skærmen', en position absolute. 'screen-skærmen' som var den overordnede spilleskærm skulle nemlig have en position relative, hvilket gør at de resterende skærme med position absolute, placerede sig i forhold til den. Endvidere brugte jeg 'animation-fill-mode: both' fremfor 'animation-direction' til animationen af min timer, da iteration-counten er 1, hvilket er et ulige tal. Ellers ville min timer nemlig fylde op igen og dermed ryge frem til startpositionen når den var slut.</p>
+
+                    <div id="slider">
+                        <figure>
+                            <img src="galleri/layoutdiagram.jpg" alt="layout diagram">
+                            <img src="galleri/screen.jpg" alt="screen">
+                            <img src="galleri/timer.jpg" alt="timer">
+                            <img src="galleri/layoutdiagram.jpg" alt="layout diagram">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h5>Layal Hussain © 2020</h5>
+            <hr>
+            <div class="ikoner">
+                <div class="instagram">
+                    <a href="https://www.instagram.com/luluhussaiiin/">
+                        <img src="ikoner/instagram.png" alt="instagram">
+                    </a>
+                </div>
+                <div class="facebook">
+                    <a href="https://www.facebook.com/layal.hussain.3">
+                        <img src="ikoner/facebook.png" alt="facebook">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="js/forside.js"></script>
+</body>
+
+</html>
