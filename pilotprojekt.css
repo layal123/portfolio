@@ -88,11 +88,11 @@ a {
 a:hover {
     color: white;
 }
-#slider {
+.slider {
     overflow: hidden;
     margin: 10vw;
 }
-#slider figure {
+.slider figure {
     position: relative;
     width: 455%;
     animation: 20s slider infinite;
@@ -221,13 +221,13 @@ footer img {
         margin-top: 2vw;
         margin-bottom: 5vw;
     }
-    #slider {
+    .slider {
         overflow: hidden;
         margin: 0;
         margin-right: 10vw;
         box-shadow: 14px -14px #CEA98D;
     }
-    #slider figure {
+    .slider figure {
         position: relative;
         width: 403%;
         animation: 20s slider infinite;
@@ -247,7 +247,7 @@ footer img {
         margin-right: 10vw;
         margin-top: 3.5vw;
     }
-    .row_middle #slider {
+    .row_middle .slider {
         margin-left: 10vw;
         margin-right: 0;
         box-shadow: -14px -14px #A3836B;
