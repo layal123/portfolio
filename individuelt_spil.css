@@ -67,12 +67,12 @@ h1 {
     padding-top: 27vw;
     padding-bottom: 1vw;
 }
-h2 {
+#individuelt_spil a {
     font-family: gotham;
     font-size: 1rem;
     text-align: center;
     text-transform: uppercase;
-    color: #654321;
+    color: black;
     padding-bottom: 4vw;
 }
 p {
@@ -85,7 +85,7 @@ p {
 a {
     color: black;
 }
-a:hover {
+#individuelt_spil a:hover {
     color: white;
 }
 .slider {

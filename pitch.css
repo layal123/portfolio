@@ -67,7 +67,7 @@ h1 {
     padding-top: 27vw;
     padding-bottom: 1vw;
 }
-h2 {
+#pitch a {
     font-family: gotham;
     font-size: 1rem;
     text-align: center;
@@ -82,10 +82,10 @@ p {
     text-align: center;
     margin: 10vw;
 }
-a {
+#pitch a {
     color: black;
 }
-a:hover {
+#pitch a:hover {
     color: white;
 }
 .slider {
