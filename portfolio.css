@@ -82,6 +82,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     color: black;
+    font-weight: normal;
 }
 p {
     font-family: 'Raleway', sans-serif;
