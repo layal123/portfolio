@@ -67,13 +67,17 @@ h1 {
     padding-top: 27vw;
     padding-bottom: 1vw;
 }
+.opgave {
+    text-align: center;
+    padding-bottom: 4vw;
+}
 #pitch a {
     font-family: gotham;
     font-size: 1rem;
     text-align: center;
     text-transform: uppercase;
     color: #654321;
-    padding-bottom: 4vw;
+    font-weight: bold;
 }
 p {
     font-family: 'Raleway', sans-serif;

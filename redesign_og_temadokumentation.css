@@ -67,13 +67,18 @@ h1 {
     padding-top: 27vw;
     padding-bottom: 1vw;
 }
-h2 {
+.opgave {
+    text-align: center;
+    padding-bottom: 4vw;
+}
+#redesign_og_temadokumentation a {
     font-family: gotham;
     font-size: 1rem;
     text-align: center;
     text-transform: uppercase;
     color: #654321;
     padding-bottom: 4vw;
+    font-weight: bold;
 }
 p {
     font-family: 'Raleway', sans-serif;
@@ -82,10 +87,10 @@ p {
     text-align: center;
     margin: 10vw;
 }
-a {
+#redesign_og_temadokumentation a {
     color: black;
 }
-a:hover {
+#redesign_og_temadokumentation a:hover {
     color: white;
 }
 .slider {

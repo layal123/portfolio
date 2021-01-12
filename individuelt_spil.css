@@ -67,13 +67,16 @@ h1 {
     padding-top: 27vw;
     padding-bottom: 1vw;
 }
+.opgave {
+    text-align: center;
+    padding-bottom: 4vw;
+}
 #individuelt_spil a {
     font-family: gotham;
     font-size: 1rem;
     text-align: center;
     text-transform: uppercase;
-    color: black;
-    padding-bottom: 4vw;
+    font-weight: bold;
 }
 p {
     font-family: 'Raleway', sans-serif;
@@ -82,7 +85,7 @@ p {
     text-align: center;
     margin: 10vw;
 }
-a {
+#individuelt_spil a {
     color: black;
 }
 #individuelt_spil a:hover {
